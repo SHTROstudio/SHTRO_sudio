@@ -1,0 +1,92 @@
+ .u-section-1 {
+  background-image: url("images/12.png");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 669px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: HelveticaNeueCyr-Light;
+  font-size: 4.25rem;
+  margin: 271px 322px 0 auto;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: HelveticaNeueCyr-Thin;
+  font-size: 3rem;
+  margin: 0 356px 60px 646px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 494px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: -249px;
+    margin-right: 266px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 2.875rem;
+    margin-right: 256px;
+    margin-left: 546px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 204px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 146px;
+    margin-left: 436px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 481px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: -236px;
+    margin-right: 153px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 56px;
+    margin-left: 346px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 325px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+    margin-top: -80px;
+    margin-right: 96px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 1.5rem;
+    margin-right: 0;
+    margin-left: 202px;
+  }
+}@font-face {
+  font-family: 'HelveticaNeueCyr-Light';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HelveticaNeueCyr-Light.ttf);
+}@font-face {
+  font-family: 'HelveticaNeueCyr-Thin';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HelveticaNeueCyr-Thin.ttf);
+}
